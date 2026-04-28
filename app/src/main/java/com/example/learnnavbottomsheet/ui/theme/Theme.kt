@@ -54,9 +54,9 @@ fun LearnNavBottomSheetTheme(
         else -> LightColorScheme
     }
     val view = LocalView.current
-    if(!view.isInEditMode){
+    if (!view.isInEditMode) {
         SideEffect {
-            val window=(view.context as Activity).window
+            val window = (view.context as Activity).window
             window.statusBarColor = BlueJC.toArgb()
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
         }

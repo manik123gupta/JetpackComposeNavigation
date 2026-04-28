@@ -308,7 +308,7 @@ fun LearnNavBottomSheet() {
 fun BottomSheetItem(icon: ImageVector, title: String, onClick: () -> Unit) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.Center,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
         modifier = Modifier.clickable { onClick() }
     ) {
         Icon(icon, contentDescription = null, tint = BlueJC)
