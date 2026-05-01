@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.learnnavbottomsheet"
+    namespace = "com.example.learnJetpackCompose"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1

@@ -1,4 +1,4 @@
-package com.example.learnnavbottomsheet
+package com.example.learnJetpackCompose
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -64,8 +64,8 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.learnnavbottomsheet.ui.theme.BlueJC
-import com.example.learnnavbottomsheet.ui.theme.LearnNavBottomSheetTheme
+import com.example.learnJetpackCompose.ui.theme.BlueJC
+import com.example.learnJetpackCompose.ui.theme.LearnNavBottomSheetTheme
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {

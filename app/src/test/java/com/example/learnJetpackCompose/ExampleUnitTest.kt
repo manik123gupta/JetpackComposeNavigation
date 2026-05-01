@@ -1,4 +1,4 @@
-package com.example.learnnavbottomsheet
+package com.example.learnJetpackCompose
 
 import org.junit.Test
 

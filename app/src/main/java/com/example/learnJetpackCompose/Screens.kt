@@ -1,4 +1,4 @@
-package com.example.learnnavbottomsheet
+package com.example.learnJetpackCompose
 
 sealed class Screens(val screen: String) {
     data object Home : Screens("home")

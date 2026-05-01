@@ -1,4 +1,4 @@
-package com.example.learnnavbottomsheet
+package com.example.learnJetpackCompose
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
-import com.example.learnnavbottomsheet.ui.theme.BlueJC
+import com.example.learnJetpackCompose.ui.theme.BlueJC
 
 
 @Composable

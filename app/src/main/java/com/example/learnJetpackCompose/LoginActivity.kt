@@ -1,4 +1,4 @@
-package com.example.learnnavbottomsheet
+package com.example.learnJetpackCompose
 
 import android.os.Bundle
 import android.widget.Toast
@@ -38,8 +38,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.learnnavbottomsheet.ui.theme.BlueJC
-import com.example.learnnavbottomsheet.ui.theme.LearnNavBottomSheetTheme
+import com.example.learnJetpackCompose.ui.theme.BlueJC
+import com.example.learnJetpackCompose.ui.theme.LearnNavBottomSheetTheme
 
 class LoginActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

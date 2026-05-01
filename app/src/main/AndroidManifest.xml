@@ -11,11 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnNavBottomSheet">
-
         <activity
-            android:name=".LoginActivity"
+            android:name=".ListActivity"
             android:exported="true"
-            android:label="@string/title_activity_login"
+            android:label="@string/title_activity_list"
             android:theme="@style/Theme.LearnNavBottomSheet">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,17 +22,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_login"
             android:theme="@style/Theme.LearnNavBottomSheet">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.LearnNavBottomSheet">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 
