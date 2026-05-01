@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnNavBottomSheet">
         <activity
-            android:name=".ListActivity"
+            android:name=".ConstraintLayoutActivity"
             android:exported="true"
-            android:label="@string/title_activity_list"
+            android:label="@string/title_activity_constraint_layout"
             android:theme="@style/Theme.LearnNavBottomSheet">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,15 +23,22 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_list"
+            android:theme="@style/Theme.LearnNavBottomSheet" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.LearnNavBottomSheet">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".MainActivity"
