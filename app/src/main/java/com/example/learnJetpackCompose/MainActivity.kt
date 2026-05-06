@@ -65,7 +65,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.learnJetpackCompose.ui.theme.BlueJC
-import com.example.learnJetpackCompose.ui.theme.LearnNavBottomSheetTheme
+import com.example.learnJetpackCompose.ui.theme.LearnJCTheme
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
@@ -73,7 +73,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            LearnNavBottomSheetTheme {
+            LearnJCTheme {
                 Surface(
 //                    modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

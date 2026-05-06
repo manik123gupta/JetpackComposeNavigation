@@ -18,14 +18,14 @@ import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ChainStyle
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
-import com.example.learnJetpackCompose.ui.theme.LearnNavBottomSheetTheme
+import com.example.learnJetpackCompose.ui.theme.LearnJCTheme
 
 class ConstraintLayoutActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            LearnNavBottomSheetTheme {
+            LearnJCTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -85,7 +85,7 @@ fun LearnConstraintLayout() {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    LearnNavBottomSheetTheme {
+    LearnJCTheme {
         LearnConstraintLayout()
     }
 }

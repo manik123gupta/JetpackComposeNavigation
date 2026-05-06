@@ -11,3 +11,6 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val BlueJC = Color(0xFF00AABB)
+
+val DashboardRed = Color(0xFFCB2020)
+val DashboardGray = Color(0xFFEEEEFB)

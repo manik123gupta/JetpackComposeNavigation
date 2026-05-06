@@ -16,7 +16,7 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = BlueJC, //Purple80,
+    primary = DashboardRed, //BlueJC, //Purple80,
     secondary = PurpleGrey80,
     tertiary = Pink80
 )
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun LearnNavBottomSheetTheme(
+fun LearnJCTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
@@ -57,7 +57,7 @@ fun LearnNavBottomSheetTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            window.statusBarColor = BlueJC.toArgb()
+            window.statusBarColor = DashboardRed.toArgb()
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
         }
     }
